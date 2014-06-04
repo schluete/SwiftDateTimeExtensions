@@ -1,4 +1,4 @@
-# Simple date and time arithmetics in Swift
+# Rails-style date/time arithmetics in Swift
 
 Admit it, you've always been jealous of you friend the Rails developer 
 being able to write nice, readable date operations like these:
@@ -8,9 +8,9 @@ some_future_date = 4.months.from_now
 the_past = (2.days + 3.years).ago
 ```
 
-Well, with Swift you can have those in your iOS app now as well! We 
+Well, with Swift you can now have those in your iOS app as well! We 
 can simply extent the `Int` data type with some computed properties
-to convert the values into `NSDateComponents`. Now let's also add 
+to convert the values into `NSDateComponents`. Then let's also add 
 operator functions for addition and subtraction working with two 
 `NSDateComponents` and we can write lines like these, too:
 
